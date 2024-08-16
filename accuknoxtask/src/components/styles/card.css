@@ -1,0 +1,54 @@
+.card {
+    width: 390px;
+    height: 270px;
+    background-color: #ffffff;
+    border: 2px solid #E0E8F0;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 15px #eef2f73a, 0 10px 15px rgba(0, 0, 0, 0.1);   
+    margin: 10px;
+    padding:5px  29px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: justify;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h5 {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666666;
+    word-break: break-all; /* Breaks long words anywhere necessary */
+     /* Center-align text within the paragraph */
+}
+
+.addcard {
+    width: 390px; /* Same width as other cards */
+    height: 270px; /* Same height as other cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0; /* Prevent shrinking */
+    margin: 10px; /* Ensure consistent margin */
+    border: 2px dashed #E0E8F0; /* Optional: Dashed border to differentiate the Add Widget card */
+    background-color: #f8f9fa; /* Optional: Light background color */
+}
+  .add {
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 15px;
+
+  }
+  

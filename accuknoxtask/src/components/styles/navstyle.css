@@ -1,0 +1,150 @@
+p{
+    display: inline;
+}
+.nav{
+    display: flex;
+}
+
+.home{
+    font-size: 13px;
+    color: rgb(64, 94, 94);
+}
+.search{
+    position: absolute;
+    right:500px;
+}
+input{
+    width: 180%;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #edf2fb;   
+}
+.dashflex {
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap; /* Prevent wrapping of cards */
+}
+
+.dashflex::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard{
+    padding:5px 10px;
+    background-color: #edf2fb;   
+     border-radius: 7px;
+     margin-top: 7px;
+}
+
+
+.dnav{
+    display: flex;
+}
+
+.addn{
+    margin-left: 70%;
+    margin-right: 50px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 9px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.addnn{
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 5px 13px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
+
+/* Add the transition and positioning for the add widget panel */
+.add-widget-panel {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 600px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .add-widget-panel.open {
+    right: 0;
+  }
+  
+  .add-widget-header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    background-color: #002060;
+    color: white;
+  }
+  
+  .add-widget-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    position: relative;
+  }
+  
+  .addn, .add {
+    cursor: pointer;
+  }
+
+  .widghead{
+    display: flex;
+  }
+  
+  .widgheadname{
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+.llll{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px 10px;
+}
+  .checkbox-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between items */
+    padding: 20px; /* Add padding around the list */
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between checkbox and label */
+  }
+  
+  .checkbox-input {
+    cursor: pointer;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+  }
+  
+  .checkbox-label {
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+  }
+
+  
+  
