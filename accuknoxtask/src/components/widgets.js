@@ -12,7 +12,7 @@ export const WidgetsDiv = () => {
         <div>
           <h5>CNAPP Dashboard</h5>
         </div>
-        <div className="addn">Add widget +</div>
+        <div className="addn" onClick={()=>{dispatch({ type: "addb" })}>Add widget +</div>
         <div className="addnn">&#8285;</div>
       </div>
       {state.categories.map((category) => (
